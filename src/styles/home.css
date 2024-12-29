@@ -1,0 +1,25 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20px;
+
+    align-self: center;
+
+    margin-top: 300px;
+
+    
+    
+}
+
+.order-btn{
+    padding: 5px 20px 5px 20px ;
+
+    border-radius: 20px;
+    color: #f8fafc;
+    background-color: #020617;
+    font-size: 0.7rem;
+    
+}

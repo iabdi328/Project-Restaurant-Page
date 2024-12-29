@@ -1,0 +1,50 @@
+.menuSelector-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+    
+}
+
+
+.menuSelector{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+
+}
+
+
+
+.burgerlogo {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; 
+}
+
+
+.left-hand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 800px;
+}
+
+
+
+
+.btn{
+    padding: 5px 20px 5px 20px ;
+
+    border-radius: 20px;
+    color: #f8fafc;
+    background-color: #020617;
+    font-size: 0.7rem;
+    
+}
+
+
+
+

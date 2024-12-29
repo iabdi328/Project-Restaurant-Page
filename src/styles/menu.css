@@ -1,0 +1,78 @@
+.menu-content{
+    padding-left: 20px;
+}
+
+
+.burger-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    
+    padding: 15px;
+    gap: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden; 
+    border-radius: 8px;
+}
+
+
+.menu-burger-img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.burger-container h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.burger-container .price {
+    font-size: 1rem;
+    font-weight: 900;
+    color: #444;
+}
+
+.burger-container .meal-combo {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #666;
+}
+
+.burger-container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.2s ease-in-out;
+}
+
+.burger-container {
+    width: 90%;
+    max-width: 200px;
+}
+
+
+.menu-grid{
+    display: grid;
+
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-rows: 300px 300px;
+
+    gap: 20px;
+}
